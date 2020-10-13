@@ -4,8 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        library.cpp \
-        main.cpp
+        lecturer.cpp \
+        main.cpp \
+        person.cpp
 
 HEADERS += \
-  library.hpp
+  lecturer.hpp \
+  person.hpp
