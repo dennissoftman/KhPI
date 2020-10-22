@@ -1,7 +1,7 @@
 #include "person.hpp"
 
-Person::Person(const std::string &_fio, char _age)
-    : fio(_fio), age(_age)
+Person:: Person(const std::string &_fio, int _byear)
+    : fio(_fio), byear(_byear)
 {
 
 }

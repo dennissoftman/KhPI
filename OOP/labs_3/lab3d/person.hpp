@@ -6,16 +6,16 @@
 class Person
 {
 public:
-    Person(const std::string &_fio, char _age);
+    Person(const std::string &_fio, int _byear);
     virtual ~Person();
 
-    virtual const std::string &info() = 0;
-    virtual int who() = 0;
-    virtual int ask() = 0;
+    virtual std::string info() const = 0;
+    virtual int who() const = 0;
+    virtual int ask() const = 0;
 
 protected:
     std::string fio;
-    char age;
+    int byear; // birthyear
 };
 
 #endif // PERSON_HPP
